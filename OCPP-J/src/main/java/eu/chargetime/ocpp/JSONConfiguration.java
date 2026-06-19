@@ -44,6 +44,7 @@ public class JSONConfiguration {
   public static final String OCPPJ_CP_MAX_PASSWORD_LENGTH = "OCPPJ_CP_MAX_PASSWORD_LENGTH";
   public static final String OCPP2J_CP_MIN_PASSWORD_LENGTH = "OCPP2J_CP_MIN_PASSWORD_LENGTH";
   public static final String OCPP2J_CP_MAX_PASSWORD_LENGTH = "OCPP2J_CP_MAX_PASSWORD_LENGTH";
+  public static final String OCPPJ_CP_ACCEPT_EMPTY_PASSWORD = "OCPPJ_CP_ACCEPT_EMPTY_PASSWORD";
 
   private final HashMap<String, Object> parameters = new HashMap<>();
 

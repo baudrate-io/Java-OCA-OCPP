@@ -167,9 +167,12 @@ public class WebSocketListener implements Listener {
                   }
                 }
               }
-              if (password == null
-                  || password.length() < configuration.getParameter(JSONConfiguration.OCPPJ_CP_MIN_PASSWORD_LENGTH, OCPPJ_CP_MIN_PASSWORD_LENGTH)
-                  || password.length() > configuration.getParameter(JSONConfiguration.OCPPJ_CP_MAX_PASSWORD_LENGTH, OCPPJ_CP_MAX_PASSWORD_LENGTH))
+              boolean acceptEmptyPassword =
+                  configuration.getParameter(JSONConfiguration.OCPPJ_CP_ACCEPT_EMPTY_PASSWORD, Boolean.FALSE);
+              if ((password == null && !acceptEmptyPassword)
+                  || (password != null
+                      && (password.length() < configuration.getParameter(JSONConfiguration.OCPPJ_CP_MIN_PASSWORD_LENGTH, OCPPJ_CP_MIN_PASSWORD_LENGTH)
+                       || password.length() > configuration.getParameter(JSONConfiguration.OCPPJ_CP_MAX_PASSWORD_LENGTH, OCPPJ_CP_MAX_PASSWORD_LENGTH))))
                 throw new InvalidDataException(401, "Invalid password length");
             }
 
