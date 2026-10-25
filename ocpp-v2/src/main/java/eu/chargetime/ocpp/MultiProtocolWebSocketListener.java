@@ -186,7 +186,8 @@ public class MultiProtocolWebSocketListener implements Listener {
               }
               if (protocolVersion == null || protocolVersion == ProtocolVersion.OCPP1_6) {
                 if (password == null
-                    || password.length
+                    ? !configuration.getParameter(JSONConfiguration.OCPPJ_CP_ACCEPT_EMPTY_PASSWORD, false)
+                    : password.length
                         < configuration.getParameter(
                             JSONConfiguration.OCPPJ_CP_MIN_PASSWORD_LENGTH,
                             OCPPJ_CP_MIN_PASSWORD_LENGTH)
@@ -197,7 +198,8 @@ public class MultiProtocolWebSocketListener implements Listener {
                   throw new InvalidDataException(401, "Invalid password length");
               } else {
                 if (password == null
-                    || password.length
+                    ? !configuration.getParameter(JSONConfiguration.OCPPJ_CP_ACCEPT_EMPTY_PASSWORD, false)
+                    : password.length
                         < configuration.getParameter(
                             JSONConfiguration.OCPP2J_CP_MIN_PASSWORD_LENGTH,
                             OCPP2J_CP_MIN_PASSWORD_LENGTH)

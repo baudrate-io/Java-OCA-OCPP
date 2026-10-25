@@ -166,7 +166,8 @@ public class WebSocketListener implements Listener {
                 }
               }
               if (password == null
-                  || password.length
+                  ? !configuration.getParameter(JSONConfiguration.OCPPJ_CP_ACCEPT_EMPTY_PASSWORD, false)
+                  : password.length
                       < configuration.getParameter(
                           JSONConfiguration.OCPPJ_CP_MIN_PASSWORD_LENGTH,
                           OCPPJ_CP_MIN_PASSWORD_LENGTH)
