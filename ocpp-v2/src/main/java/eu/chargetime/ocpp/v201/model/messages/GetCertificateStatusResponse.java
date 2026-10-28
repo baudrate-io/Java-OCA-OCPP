@@ -54,6 +54,8 @@ public final class GetCertificateStatusResponse extends Confirmation {
    */
   @Nullable private String ocspResult;
 
+  private GetCertificateStatusResponse() {}
+
   /**
    * Constructor for the GetCertificateStatusResponse class
    *

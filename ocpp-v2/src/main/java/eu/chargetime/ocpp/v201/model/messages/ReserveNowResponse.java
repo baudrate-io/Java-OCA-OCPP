@@ -48,6 +48,8 @@ public final class ReserveNowResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private ReserveNowResponse() {}
+
   /**
    * Constructor for the ReserveNowResponse class
    *

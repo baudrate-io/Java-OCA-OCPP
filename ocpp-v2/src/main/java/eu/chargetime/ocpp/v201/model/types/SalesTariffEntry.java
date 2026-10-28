@@ -50,6 +50,8 @@ public final class SalesTariffEntry {
   /** Consumption Cost */
   @Nullable private ConsumptionCost[] consumptionCost;
 
+  private SalesTariffEntry() {}
+
   /**
    * Constructor for the SalesTariffEntry class
    *

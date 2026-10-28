@@ -60,6 +60,8 @@ public final class GetDisplayMessagesRequest extends RequestWithId {
   /** If provided the Charging Station shall return Display Messages with the given state only. */
   @Nullable private MessageStateEnum state;
 
+  private GetDisplayMessagesRequest() {}
+
   /**
    * Constructor for the GetDisplayMessagesRequest class
    *

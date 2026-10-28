@@ -70,6 +70,8 @@ public final class ChargingSchedulePeriod {
    */
   @Nullable private Integer phaseToUse;
 
+  private ChargingSchedulePeriod() {}
+
   /**
    * Constructor for the ChargingSchedulePeriod class
    *

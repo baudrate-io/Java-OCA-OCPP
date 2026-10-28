@@ -51,6 +51,8 @@ public final class NotifyEVChargingNeedsResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private NotifyEVChargingNeedsResponse() {}
+
   /**
    * Constructor for the NotifyEVChargingNeedsResponse class
    *

@@ -52,6 +52,8 @@ public final class GetMonitoringReportRequest extends RequestWithId {
   /** This field contains criteria for components for which a monitoring report is requested */
   @Nullable private MonitoringCriterionEnum[] monitoringCriteria;
 
+  private GetMonitoringReportRequest() {}
+
   /**
    * Constructor for the GetMonitoringReportRequest class
    *

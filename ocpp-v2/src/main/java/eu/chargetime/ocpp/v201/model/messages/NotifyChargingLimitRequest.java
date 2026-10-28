@@ -60,6 +60,8 @@ public final class NotifyChargingLimitRequest extends RequestWithId {
   /** Charging Limit */
   private ChargingLimit chargingLimit;
 
+  private NotifyChargingLimitRequest() {}
+
   /**
    * Constructor for the NotifyChargingLimitRequest class
    *

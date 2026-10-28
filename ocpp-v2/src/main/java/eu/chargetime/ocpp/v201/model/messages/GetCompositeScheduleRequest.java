@@ -53,6 +53,8 @@ public final class GetCompositeScheduleRequest extends RequestWithId {
    */
   private Integer evseId;
 
+  private GetCompositeScheduleRequest() {}
+
   /**
    * Constructor for the GetCompositeScheduleRequest class
    *

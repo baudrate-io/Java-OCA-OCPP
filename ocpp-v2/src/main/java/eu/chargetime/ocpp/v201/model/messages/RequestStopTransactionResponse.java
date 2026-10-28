@@ -48,6 +48,8 @@ public final class RequestStopTransactionResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private RequestStopTransactionResponse() {}
+
   /**
    * Constructor for the RequestStopTransactionResponse class
    *

@@ -48,6 +48,8 @@ public final class CancelReservationResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private CancelReservationResponse() {}
+
   /**
    * Constructor for the CancelReservationResponse class
    *

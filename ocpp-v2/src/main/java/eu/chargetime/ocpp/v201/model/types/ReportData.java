@@ -47,6 +47,8 @@ public final class ReportData {
   /** Fixed read-only parameters of a variable. */
   @Nullable private VariableCharacteristics variableCharacteristics;
 
+  private ReportData() {}
+
   /**
    * Constructor for the ReportData class
    *

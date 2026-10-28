@@ -62,6 +62,8 @@ public final class PublishFirmwareRequest extends RequestWithId {
    */
   @Nullable private Integer retryInterval;
 
+  private PublishFirmwareRequest() {}
+
   /**
    * Constructor for the PublishFirmwareRequest class
    *

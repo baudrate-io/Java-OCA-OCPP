@@ -48,6 +48,8 @@ public final class SignCertificateResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private SignCertificateResponse() {}
+
   /**
    * Constructor for the SignCertificateResponse class
    *

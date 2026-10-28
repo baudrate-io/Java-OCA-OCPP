@@ -33,6 +33,8 @@ public class CustomData {
   /** vendorId */
   private String vendorId;
 
+  private CustomData() {}
+
   /**
    * Constructor for the CustomData class
    *

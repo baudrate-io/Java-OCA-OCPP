@@ -44,6 +44,8 @@ public final class GetCertificateStatusRequest extends RequestWithId {
   /** ocspRequestData */
   private OCSPRequestData ocspRequestData;
 
+  private GetCertificateStatusRequest() {}
+
   /**
    * Constructor for the GetCertificateStatusRequest class
    *

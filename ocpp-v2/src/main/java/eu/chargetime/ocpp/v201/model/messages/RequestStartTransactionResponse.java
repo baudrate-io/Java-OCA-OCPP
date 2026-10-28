@@ -55,6 +55,8 @@ public final class RequestStartTransactionResponse extends Confirmation {
    */
   @Nullable private String transactionId;
 
+  private RequestStartTransactionResponse() {}
+
   /**
    * Constructor for the RequestStartTransactionResponse class
    *

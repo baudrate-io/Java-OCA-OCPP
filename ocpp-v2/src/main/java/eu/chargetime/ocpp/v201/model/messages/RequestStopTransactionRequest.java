@@ -43,6 +43,8 @@ public final class RequestStopTransactionRequest extends RequestWithId {
   /** The identifier of the transaction which the Charging Station is requested to stop. */
   private String transactionId;
 
+  private RequestStopTransactionRequest() {}
+
   /**
    * Constructor for the RequestStopTransactionRequest class
    *

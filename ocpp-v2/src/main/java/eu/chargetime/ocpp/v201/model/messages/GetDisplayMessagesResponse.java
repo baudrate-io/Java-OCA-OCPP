@@ -51,6 +51,8 @@ public final class GetDisplayMessagesResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private GetDisplayMessagesResponse() {}
+
   /**
    * Constructor for the GetDisplayMessagesResponse class
    *

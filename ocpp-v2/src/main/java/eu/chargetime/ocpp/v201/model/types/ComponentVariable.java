@@ -40,6 +40,8 @@ public final class ComponentVariable {
   /** Reference key to a component-variable. */
   @Nullable private Variable variable;
 
+  private ComponentVariable() {}
+
   /**
    * Constructor for the ComponentVariable class
    *

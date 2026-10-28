@@ -44,6 +44,8 @@ public final class DeleteCertificateRequest extends RequestWithId {
   /** certificateHashData */
   private CertificateHashData certificateHashData;
 
+  private DeleteCertificateRequest() {}
+
   /**
    * Constructor for the DeleteCertificateRequest class
    *

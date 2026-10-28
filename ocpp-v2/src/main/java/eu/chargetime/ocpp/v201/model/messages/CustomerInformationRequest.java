@@ -73,6 +73,8 @@ public final class CustomerInformationRequest extends RequestWithId {
    */
   @Nullable private String customerIdentifier;
 
+  private CustomerInformationRequest() {}
+
   /**
    * Constructor for the CustomerInformationRequest class
    *

@@ -48,6 +48,8 @@ public final class ClearDisplayMessageResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private ClearDisplayMessageResponse() {}
+
   /**
    * Constructor for the ClearDisplayMessageResponse class
    *

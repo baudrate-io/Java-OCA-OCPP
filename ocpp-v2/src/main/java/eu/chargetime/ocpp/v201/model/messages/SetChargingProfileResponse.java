@@ -52,6 +52,8 @@ public final class SetChargingProfileResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private SetChargingProfileResponse() {}
+
   /**
    * Constructor for the SetChargingProfileResponse class
    *

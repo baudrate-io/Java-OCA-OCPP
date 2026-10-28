@@ -65,6 +65,8 @@ public final class Transaction {
    */
   @Nullable private Integer remoteStartId;
 
+  private Transaction() {}
+
   /**
    * Constructor for the Transaction class
    *

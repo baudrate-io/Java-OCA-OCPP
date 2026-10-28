@@ -52,6 +52,8 @@ public final class BootNotificationRequest extends RequestWithId {
   /** The reason for sending this message to the CSMS. */
   private BootReasonEnum reason;
 
+  private BootNotificationRequest() {}
+
   /**
    * Constructor for the BootNotificationRequest class
    *

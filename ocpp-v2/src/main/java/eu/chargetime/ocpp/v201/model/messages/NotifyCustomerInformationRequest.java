@@ -62,6 +62,8 @@ public final class NotifyCustomerInformationRequest extends RequestWithId {
   /** The Id of the request. */
   private Integer requestId;
 
+  private NotifyCustomerInformationRequest() {}
+
   /**
    * Constructor for the NotifyCustomerInformationRequest class
    *

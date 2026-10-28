@@ -61,6 +61,8 @@ public final class NotifyMonitoringReportRequest extends RequestWithId {
   /** Timestamp of the moment this message was generated at the Charging Station. */
   private ZonedDateTime generatedAt;
 
+  private NotifyMonitoringReportRequest() {}
+
   /**
    * Constructor for the NotifyMonitoringReportRequest class
    *

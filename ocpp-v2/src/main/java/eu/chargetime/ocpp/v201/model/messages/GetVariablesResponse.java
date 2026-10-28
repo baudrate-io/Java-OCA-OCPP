@@ -45,6 +45,8 @@ public final class GetVariablesResponse extends Confirmation {
   /** Class to hold results of GetVariables request. */
   private GetVariableResult[] getVariableResult;
 
+  private GetVariablesResponse() {}
+
   /**
    * Constructor for the GetVariablesResponse class
    *

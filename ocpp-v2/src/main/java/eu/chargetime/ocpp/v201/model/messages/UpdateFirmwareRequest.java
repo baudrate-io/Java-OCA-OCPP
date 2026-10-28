@@ -64,6 +64,8 @@ public final class UpdateFirmwareRequest extends RequestWithId {
    */
   private Firmware firmware;
 
+  private UpdateFirmwareRequest() {}
+
   /**
    * Constructor for the UpdateFirmwareRequest class
    *

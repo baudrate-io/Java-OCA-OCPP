@@ -47,6 +47,8 @@ public final class ReservationStatusUpdateRequest extends RequestWithId {
   /** The updated reservation status. */
   private ReservationUpdateStatusEnum reservationUpdateStatus;
 
+  private ReservationStatusUpdateRequest() {}
+
   /**
    * Constructor for the ReservationStatusUpdateRequest class
    *

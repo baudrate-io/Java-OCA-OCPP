@@ -62,6 +62,8 @@ public final class GetChargingProfilesRequest extends RequestWithId {
    */
   private ChargingProfileCriterion chargingProfile;
 
+  private GetChargingProfilesRequest() {}
+
   /**
    * Constructor for the GetChargingProfilesRequest class
    *

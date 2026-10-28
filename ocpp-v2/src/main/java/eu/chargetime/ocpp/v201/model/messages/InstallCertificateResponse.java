@@ -48,6 +48,8 @@ public final class InstallCertificateResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private InstallCertificateResponse() {}
+
   /**
    * Constructor for the InstallCertificateResponse class
    *

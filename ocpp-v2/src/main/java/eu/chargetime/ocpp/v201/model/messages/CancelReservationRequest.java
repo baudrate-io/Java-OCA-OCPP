@@ -43,6 +43,8 @@ public final class CancelReservationRequest extends RequestWithId {
   /** Id of the reservation to cancel. */
   private Integer reservationId;
 
+  private CancelReservationRequest() {}
+
   /**
    * Constructor for the CancelReservationRequest class
    *

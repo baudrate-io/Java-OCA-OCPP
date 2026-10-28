@@ -109,6 +109,8 @@ public final class TransactionEventRequest extends RequestWithId {
    */
   @Nullable private IdToken idToken;
 
+  private TransactionEventRequest() {}
+
   /**
    * Constructor for the TransactionEventRequest class
    *

@@ -49,6 +49,8 @@ public final class EVSE {
   /** An id to designate a specific connector (on an EVSE) by connector index number. */
   @Nullable private Integer connectorId;
 
+  private EVSE() {}
+
   /**
    * Constructor for the EVSE class
    *

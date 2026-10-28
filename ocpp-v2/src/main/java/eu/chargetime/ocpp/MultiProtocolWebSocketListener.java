@@ -124,7 +124,7 @@ public class MultiProtocolWebSocketListener implements Listener {
 
             sockets.put(webSocket, receiver);
 
-            ProtocolVersion protocolVersion = ProtocolVersion.fromSubProtocolName(protocol);
+            ProtocolVersion protocolVersion = protocolVersion(protocol);
             String proxiedAddress = clientHandshake.getFieldValue(HTTP_HEADER_PROXIED_ADDRESS);
 
             logger.debug(
@@ -152,7 +152,7 @@ public class MultiProtocolWebSocketListener implements Listener {
             ProtocolVersion protocolVersion;
             if (draft instanceof Draft_6455) {
               String protocol = ((Draft_6455) draft).getProtocol().toString();
-              protocolVersion = ProtocolVersion.fromSubProtocolName(protocol);
+              protocolVersion = protocolVersion(protocol);
             } else {
               protocolVersion = null;
             }
@@ -333,5 +333,11 @@ public class MultiProtocolWebSocketListener implements Listener {
   @Override
   public void setAsyncRequestHandler(boolean async) {
     this.handleRequestAsync = async;
+  }
+
+  /** No subprotocol is a legacy OCPP 1.6 charger: OCPP 2.0.1 requires the subprotocol */
+  private static ProtocolVersion protocolVersion(String subProtocol) {
+    ProtocolVersion protocolVersion = ProtocolVersion.fromSubProtocolName(subProtocol);
+    return protocolVersion == null && subProtocol.isEmpty() ? ProtocolVersion.OCPP1_6 : protocolVersion;
   }
 }

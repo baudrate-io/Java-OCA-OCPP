@@ -45,6 +45,8 @@ public final class SetVariableMonitoringResponse extends Confirmation {
   /** Class to hold result of SetVariableMonitoring request. */
   private SetMonitoringResult[] setMonitoringResult;
 
+  private SetVariableMonitoringResponse() {}
+
   /**
    * Constructor for the SetVariableMonitoringResponse class
    *

@@ -48,6 +48,8 @@ public final class ClearChargingProfileResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private ClearChargingProfileResponse() {}
+
   /**
    * Constructor for the ClearChargingProfileResponse class
    *

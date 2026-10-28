@@ -67,6 +67,8 @@ public final class GetLogRequest extends RequestWithId {
    */
   @Nullable private Integer retryInterval;
 
+  private GetLogRequest() {}
+
   /**
    * Constructor for the GetLogRequest class
    *

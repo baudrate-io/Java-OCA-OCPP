@@ -71,6 +71,8 @@ public final class SetMonitoringLevelRequest extends RequestWithId {
    */
   private Integer severity;
 
+  private SetMonitoringLevelRequest() {}
+
   /**
    * Constructor for the SetMonitoringLevelRequest class
    *

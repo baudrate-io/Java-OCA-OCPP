@@ -44,6 +44,8 @@ public final class MonitoringData {
   /** A monitoring setting for a variable. */
   private VariableMonitoring[] variableMonitoring;
 
+  private MonitoringData() {}
+
   /**
    * Constructor for the MonitoringData class
    *

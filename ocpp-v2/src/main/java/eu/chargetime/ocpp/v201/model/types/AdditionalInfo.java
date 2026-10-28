@@ -46,6 +46,8 @@ public final class AdditionalInfo {
    */
   private String type;
 
+  private AdditionalInfo() {}
+
   /**
    * Constructor for the AdditionalInfo class
    *

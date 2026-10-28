@@ -82,6 +82,8 @@ public class MultiProtocolJSONServer implements IMultiProtocolServerAPI {
     for (ProtocolVersion protocolVersion : protocolVersions) {
       protocols.add(new Protocol(protocolVersion.getSubProtocolName()));
     }
+    // like JSONServer, accept OCPP 1.6 chargers that do not send a WebSocket subprotocol
+    if (protocolVersions.contains(ProtocolVersion.OCPP1_6)) protocols.add(new Protocol(""));
     Draft draft = new Draft_6455(extensions, protocols);
 
     if (configuration.getParameter(JSONConfiguration.HTTP_HEALTH_CHECK_ENABLED, true)) {

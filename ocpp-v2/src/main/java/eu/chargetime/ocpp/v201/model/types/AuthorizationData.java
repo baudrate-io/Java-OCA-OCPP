@@ -49,6 +49,8 @@ public final class AuthorizationData {
    */
   @Nullable private IdTokenInfo idTokenInfo;
 
+  private AuthorizationData() {}
+
   /**
    * Constructor for the AuthorizationData class
    *

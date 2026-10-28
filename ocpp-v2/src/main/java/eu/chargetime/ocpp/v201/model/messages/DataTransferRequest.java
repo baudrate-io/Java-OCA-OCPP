@@ -52,6 +52,8 @@ public final class DataTransferRequest extends RequestWithId {
   /** The identifier of the Vendor specific implementation */
   private String vendorId;
 
+  private DataTransferRequest() {}
+
   /**
    * Constructor for the DataTransferRequest class
    *

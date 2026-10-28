@@ -45,6 +45,8 @@ public final class SetVariablesRequest extends RequestWithId {
   /** setVariableData */
   private SetVariableData[] setVariableData;
 
+  private SetVariablesRequest() {}
+
   /**
    * Constructor for the SetVariablesRequest class
    *

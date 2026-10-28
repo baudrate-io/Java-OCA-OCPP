@@ -48,6 +48,8 @@ public final class TriggerMessageResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private TriggerMessageResponse() {}
+
   /**
    * Constructor for the TriggerMessageResponse class
    *

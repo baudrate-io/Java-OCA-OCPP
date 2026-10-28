@@ -46,6 +46,8 @@ public final class UnlockConnectorRequest extends RequestWithId {
   /** The identifier of the connector that needs to be unlocked. */
   private Integer connectorId;
 
+  private UnlockConnectorRequest() {}
+
   /**
    * Constructor for the UnlockConnectorRequest class
    *

@@ -43,6 +43,8 @@ public final class ClearDisplayMessageRequest extends RequestWithId {
   /** Id of the message that SHALL be removed from the Charging Station. */
   private Integer id;
 
+  private ClearDisplayMessageRequest() {}
+
   /**
    * Constructor for the ClearDisplayMessageRequest class
    *

@@ -54,6 +54,8 @@ public final class PublishFirmwareStatusNotificationRequest extends RequestWithI
   /** The request id that was provided in the PublishFirmwareRequest which triggered this action. */
   @Nullable private Integer requestId;
 
+  private PublishFirmwareStatusNotificationRequest() {}
+
   /**
    * Constructor for the PublishFirmwareStatusNotificationRequest class
    *

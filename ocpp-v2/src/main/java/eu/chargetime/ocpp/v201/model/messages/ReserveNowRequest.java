@@ -67,6 +67,8 @@ public final class ReserveNowRequest extends RequestWithId {
    */
   @Nullable private IdToken groupIdToken;
 
+  private ReserveNowRequest() {}
+
   /**
    * Constructor for the ReserveNowRequest class
    *

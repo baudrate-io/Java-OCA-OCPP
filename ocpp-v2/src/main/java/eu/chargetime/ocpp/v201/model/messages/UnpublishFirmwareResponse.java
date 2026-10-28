@@ -44,6 +44,8 @@ public final class UnpublishFirmwareResponse extends Confirmation {
   /** Whether the Local Controller succeeded in unpublishing the firmware. */
   private UnpublishFirmwareStatusEnum status;
 
+  private UnpublishFirmwareResponse() {}
+
   /**
    * Constructor for the UnpublishFirmwareResponse class
    *

@@ -49,6 +49,8 @@ public final class SignedMeterValue {
   /** Base64 encoded, sending depends on configuration variable PublicKeyWithSignedMeterValue. */
   private String publicKey;
 
+  private SignedMeterValue() {}
+
   /**
    * Constructor for the SignedMeterValue class
    *

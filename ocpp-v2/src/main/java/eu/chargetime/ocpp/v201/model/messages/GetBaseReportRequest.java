@@ -47,6 +47,8 @@ public final class GetBaseReportRequest extends RequestWithId {
   /** The report base. */
   private ReportBaseEnum reportBase;
 
+  private GetBaseReportRequest() {}
+
   /**
    * Constructor for the GetBaseReportRequest class
    *

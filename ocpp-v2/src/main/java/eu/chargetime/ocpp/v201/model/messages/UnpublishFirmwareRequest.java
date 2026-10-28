@@ -43,6 +43,8 @@ public final class UnpublishFirmwareRequest extends RequestWithId {
   /** The MD5 checksum over the entire firmware file as a hexadecimal string of length 32. */
   private String checksum;
 
+  private UnpublishFirmwareRequest() {}
+
   /**
    * Constructor for the UnpublishFirmwareRequest class
    *

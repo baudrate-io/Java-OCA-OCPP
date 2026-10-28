@@ -53,6 +53,8 @@ public final class Get15118EVCertificateRequest extends RequestWithId {
   /** Raw CertificateInstallationReq request from EV, Base64 encoded. */
   private String exiRequest;
 
+  private Get15118EVCertificateRequest() {}
+
   /**
    * Constructor for the Get15118EVCertificateRequest class
    *

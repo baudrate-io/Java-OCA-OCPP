@@ -86,6 +86,8 @@ public final class EventData {
   /** Reference key to a component-variable. */
   private Variable variable;
 
+  private EventData() {}
+
   /**
    * Constructor for the EventData class
    *

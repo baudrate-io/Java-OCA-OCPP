@@ -61,6 +61,8 @@ public final class AuthorizeResponse extends Confirmation {
    */
   @Nullable private AuthorizeCertificateStatusEnum certificateStatus;
 
+  private AuthorizeResponse() {}
+
   /**
    * Constructor for the AuthorizeResponse class
    *

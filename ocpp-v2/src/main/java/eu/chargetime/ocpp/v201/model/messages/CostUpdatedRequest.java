@@ -49,6 +49,8 @@ public final class CostUpdatedRequest extends RequestWithId {
   /** Transaction Id of the transaction the current cost are asked for. */
   private String transactionId;
 
+  private CostUpdatedRequest() {}
+
   /**
    * Constructor for the CostUpdatedRequest class
    *

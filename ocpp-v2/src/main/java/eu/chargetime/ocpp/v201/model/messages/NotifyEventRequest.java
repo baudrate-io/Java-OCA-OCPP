@@ -58,6 +58,8 @@ public final class NotifyEventRequest extends RequestWithId {
   /** Class to report an event notification for a component-variable. */
   private EventData[] eventData;
 
+  private NotifyEventRequest() {}
+
   /**
    * Constructor for the NotifyEventRequest class
    *

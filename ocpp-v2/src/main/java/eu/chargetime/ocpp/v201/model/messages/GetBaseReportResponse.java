@@ -48,6 +48,8 @@ public final class GetBaseReportResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private GetBaseReportResponse() {}
+
   /**
    * Constructor for the GetBaseReportResponse class
    *

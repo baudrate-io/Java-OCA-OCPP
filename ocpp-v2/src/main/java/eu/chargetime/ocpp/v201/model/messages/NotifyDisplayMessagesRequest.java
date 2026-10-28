@@ -58,6 +58,8 @@ public final class NotifyDisplayMessagesRequest extends RequestWithId {
    */
   @Nullable private Boolean tbc;
 
+  private NotifyDisplayMessagesRequest() {}
+
   /**
    * Constructor for the NotifyDisplayMessagesRequest class
    *

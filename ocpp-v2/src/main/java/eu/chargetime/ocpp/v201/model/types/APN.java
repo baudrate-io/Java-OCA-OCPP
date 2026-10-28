@@ -94,6 +94,8 @@ public final class APN {
    */
   private APNAuthenticationEnum apnAuthentication;
 
+  private APN() {}
+
   /**
    * Constructor for the APN class
    *

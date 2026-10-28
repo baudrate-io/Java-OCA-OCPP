@@ -47,6 +47,8 @@ public final class ClearedChargingLimitRequest extends RequestWithId {
   /** EVSE Identifier. */
   @Nullable private Integer evseId;
 
+  private ClearedChargingLimitRequest() {}
+
   /**
    * Constructor for the ClearedChargingLimitRequest class
    *

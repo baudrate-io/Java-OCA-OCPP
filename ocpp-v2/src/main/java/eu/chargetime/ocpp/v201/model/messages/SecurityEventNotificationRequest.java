@@ -50,6 +50,8 @@ public final class SecurityEventNotificationRequest extends RequestWithId {
   /** Additional information about the occurred security event. */
   @Nullable private String techInfo;
 
+  private SecurityEventNotificationRequest() {}
+
   /**
    * Constructor for the SecurityEventNotificationRequest class
    *

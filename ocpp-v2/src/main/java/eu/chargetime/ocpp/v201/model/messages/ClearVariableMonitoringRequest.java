@@ -44,6 +44,8 @@ public final class ClearVariableMonitoringRequest extends RequestWithId {
   /** List of the monitors to be cleared, identified by there Id. */
   private Integer[] id;
 
+  private ClearVariableMonitoringRequest() {}
+
   /**
    * Constructor for the ClearVariableMonitoringRequest class
    *

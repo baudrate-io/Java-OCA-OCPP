@@ -52,6 +52,8 @@ public final class SetVariableData {
   /** Reference key to a component-variable. */
   private Variable variable;
 
+  private SetVariableData() {}
+
   /**
    * Constructor for the SetVariableData class
    *

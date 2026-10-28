@@ -66,6 +66,8 @@ public final class ChargingStation {
   /** The firmware version of the Charging Station. */
   @Nullable private String firmwareVersion;
 
+  private ChargingStation() {}
+
   /**
    * Constructor for the ChargingStation class
    *

@@ -44,6 +44,8 @@ public final class CertificateHashDataChain {
   /** childCertificateHashData */
   @Nullable private CertificateHashData[] childCertificateHashData;
 
+  private CertificateHashDataChain() {}
+
   /**
    * Constructor for the CertificateHashDataChain class
    *

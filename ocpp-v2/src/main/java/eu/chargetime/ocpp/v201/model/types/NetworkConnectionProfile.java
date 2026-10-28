@@ -96,6 +96,8 @@ public final class NetworkConnectionProfile {
    */
   @Nullable private VPN vpn;
 
+  private NetworkConnectionProfile() {}
+
   /**
    * Constructor for the NetworkConnectionProfile class
    *

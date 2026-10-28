@@ -46,6 +46,8 @@ public final class CertificateHashData {
   /** The serial number of the certificate. */
   private String serialNumber;
 
+  private CertificateHashData() {}
+
   /**
    * Constructor for the CertificateHashData class
    *

@@ -51,6 +51,8 @@ public final class FirmwareStatusNotificationRequest extends RequestWithId {
    */
   @Nullable private Integer requestId;
 
+  private FirmwareStatusNotificationRequest() {}
+
   /**
    * Constructor for the FirmwareStatusNotificationRequest class
    *

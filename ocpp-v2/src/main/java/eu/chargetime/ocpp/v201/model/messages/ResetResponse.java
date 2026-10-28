@@ -48,6 +48,8 @@ public final class ResetResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private ResetResponse() {}
+
   /**
    * Constructor for the ResetResponse class
    *

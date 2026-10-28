@@ -51,6 +51,8 @@ public final class Get15118EVCertificateResponse extends Confirmation {
   /** Raw CertificateInstallationRes response for the EV, Base64 encoded. */
   private String exiResponse;
 
+  private Get15118EVCertificateResponse() {}
+
   /**
    * Constructor for the Get15118EVCertificateResponse class
    *

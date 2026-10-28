@@ -52,6 +52,8 @@ public final class GetReportRequest extends RequestWithId {
   /** This field contains criteria for components for which a report is requested */
   @Nullable private ComponentCriterionEnum[] componentCriteria;
 
+  private GetReportRequest() {}
+
   /**
    * Constructor for the GetReportRequest class
    *

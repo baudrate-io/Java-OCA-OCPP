@@ -96,6 +96,8 @@ public final class DCChargingParameters {
    */
   @Nullable private Integer bulkSoC;
 
+  private DCChargingParameters() {}
+
   /**
    * Constructor for the DCChargingParameters class
    *

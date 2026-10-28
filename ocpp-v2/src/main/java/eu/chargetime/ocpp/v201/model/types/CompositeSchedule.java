@@ -63,6 +63,8 @@ public final class CompositeSchedule {
   /** The unit of measure Limit is expressed in. */
   private ChargingRateUnitEnum chargingRateUnit;
 
+  private CompositeSchedule() {}
+
   /**
    * Constructor for the CompositeSchedule class
    *

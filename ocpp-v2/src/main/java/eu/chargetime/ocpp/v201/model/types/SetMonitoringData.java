@@ -91,6 +91,8 @@ public final class SetMonitoringData {
   /** Reference key to a component-variable. */
   private Variable variable;
 
+  private SetMonitoringData() {}
+
   /**
    * Constructor for the SetMonitoringData class
    *

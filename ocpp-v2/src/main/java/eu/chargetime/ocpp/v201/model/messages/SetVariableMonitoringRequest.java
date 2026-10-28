@@ -45,6 +45,8 @@ public final class SetVariableMonitoringRequest extends RequestWithId {
   /** Class to hold parameters of SetVariableMonitoring request. */
   private SetMonitoringData[] setMonitoringData;
 
+  private SetVariableMonitoringRequest() {}
+
   /**
    * Constructor for the SetVariableMonitoringRequest class
    *

@@ -49,6 +49,8 @@ public final class OCSPRequestData {
   /** The responder URL (Case insensitive). */
   private String responderURL;
 
+  private OCSPRequestData() {}
+
   /**
    * Constructor for the OCSPRequestData class
    *

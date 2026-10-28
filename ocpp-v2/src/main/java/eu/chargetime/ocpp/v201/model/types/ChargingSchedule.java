@@ -92,6 +92,8 @@ public final class ChargingSchedule {
    */
   @Nullable private SalesTariff salesTariff;
 
+  private ChargingSchedule() {}
+
   /**
    * Constructor for the ChargingSchedule class
    *

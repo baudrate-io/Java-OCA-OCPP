@@ -93,6 +93,8 @@ public final class MessageInfo {
    */
   private MessageContent message;
 
+  private MessageInfo() {}
+
   /**
    * Constructor for the MessageInfo class
    *

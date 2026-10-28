@@ -73,6 +73,8 @@ public final class VariableCharacteristics {
   /** Flag indicating if this variable supports monitoring. */
   private Boolean supportsMonitoring;
 
+  private VariableCharacteristics() {}
+
   /**
    * Constructor for the VariableCharacteristics class
    *

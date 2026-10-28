@@ -45,6 +45,8 @@ public final class ClearVariableMonitoringResponse extends Confirmation {
   /** clearMonitoringResult */
   private ClearMonitoringResult[] clearMonitoringResult;
 
+  private ClearVariableMonitoringResponse() {}
+
   /**
    * Constructor for the ClearVariableMonitoringResponse class
    *

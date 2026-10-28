@@ -46,6 +46,8 @@ public final class Variable {
    */
   @Nullable private String instance;
 
+  private Variable() {}
+
   /**
    * Constructor for the Variable class
    *

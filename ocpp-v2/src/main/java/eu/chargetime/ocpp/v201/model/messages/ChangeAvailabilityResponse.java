@@ -48,6 +48,8 @@ public final class ChangeAvailabilityResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private ChangeAvailabilityResponse() {}
+
   /**
    * Constructor for the ChangeAvailabilityResponse class
    *

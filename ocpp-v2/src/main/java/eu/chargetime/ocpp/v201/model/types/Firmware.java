@@ -70,6 +70,8 @@ public final class Firmware {
    */
   @Nullable private String signature;
 
+  private Firmware() {}
+
   /**
    * Constructor for the Firmware class
    *

@@ -48,6 +48,8 @@ public final class ChargingLimit {
    */
   @Nullable private Boolean isGridCritical;
 
+  private ChargingLimit() {}
+
   /**
    * Constructor for the ChargingLimit class
    *

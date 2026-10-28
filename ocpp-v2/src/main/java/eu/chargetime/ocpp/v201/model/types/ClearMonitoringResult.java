@@ -43,6 +43,8 @@ public final class ClearMonitoringResult {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private ClearMonitoringResult() {}
+
   /**
    * Constructor for the ClearMonitoringResult class
    *

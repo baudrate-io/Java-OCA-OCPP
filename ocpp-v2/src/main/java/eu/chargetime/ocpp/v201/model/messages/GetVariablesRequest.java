@@ -45,6 +45,8 @@ public final class GetVariablesRequest extends RequestWithId {
   /** Class to hold parameters for GetVariables request. */
   private GetVariableData[] getVariableData;
 
+  private GetVariablesRequest() {}
+
   /**
    * Constructor for the GetVariablesRequest class
    *

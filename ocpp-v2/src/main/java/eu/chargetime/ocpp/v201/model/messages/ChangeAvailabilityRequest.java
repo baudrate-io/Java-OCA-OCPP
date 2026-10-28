@@ -52,6 +52,8 @@ public final class ChangeAvailabilityRequest extends RequestWithId {
   /** The type of availability change that the Charging Station should perform. */
   private OperationalStatusEnum operationalStatus;
 
+  private ChangeAvailabilityRequest() {}
+
   /**
    * Constructor for the ChangeAvailabilityRequest class
    *

@@ -48,6 +48,8 @@ public final class RelativeTimeInterval {
    */
   @Nullable private Integer duration;
 
+  private RelativeTimeInterval() {}
+
   /**
    * Constructor for the RelativeTimeInterval class
    *

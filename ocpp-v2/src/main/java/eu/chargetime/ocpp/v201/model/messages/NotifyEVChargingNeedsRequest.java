@@ -50,6 +50,8 @@ public final class NotifyEVChargingNeedsRequest extends RequestWithId {
   /** The EVSE and connector to which the EV is connected. EvseId may not be 0. */
   private Integer evseId;
 
+  private NotifyEVChargingNeedsRequest() {}
+
   /**
    * Constructor for the NotifyEVChargingNeedsRequest class
    *

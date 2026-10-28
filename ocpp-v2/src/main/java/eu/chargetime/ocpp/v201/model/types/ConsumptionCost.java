@@ -46,6 +46,8 @@ public final class ConsumptionCost {
   /** Cost */
   private Cost[] cost;
 
+  private ConsumptionCost() {}
+
   /**
    * Constructor for the ConsumptionCost class
    *

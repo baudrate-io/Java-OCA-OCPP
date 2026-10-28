@@ -67,6 +67,8 @@ public final class ACChargingParameters {
    */
   private Integer evMaxVoltage;
 
+  private ACChargingParameters() {}
+
   /**
    * Constructor for the ACChargingParameters class
    *

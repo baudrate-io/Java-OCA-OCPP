@@ -53,6 +53,8 @@ public final class IdToken {
   /** Enumeration of possible idToken types. */
   private IdTokenEnum type;
 
+  private IdToken() {}
+
   /**
    * Constructor for the IdToken class
    *

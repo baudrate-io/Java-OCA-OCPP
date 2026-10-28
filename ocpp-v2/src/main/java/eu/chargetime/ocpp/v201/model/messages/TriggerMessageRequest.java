@@ -52,6 +52,8 @@ public final class TriggerMessageRequest extends RequestWithId {
   /** Type of message to be triggered. */
   private MessageTriggerEnum requestedMessage;
 
+  private TriggerMessageRequest() {}
+
   /**
    * Constructor for the TriggerMessageRequest class
    *

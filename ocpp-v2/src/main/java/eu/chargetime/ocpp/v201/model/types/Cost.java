@@ -56,6 +56,8 @@ public final class Cost {
    */
   @Nullable private Integer amountMultiplier;
 
+  private Cost() {}
+
   /**
    * Constructor for the Cost class
    *

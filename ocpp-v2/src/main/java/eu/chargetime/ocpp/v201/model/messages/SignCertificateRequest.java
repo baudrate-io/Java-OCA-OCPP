@@ -53,6 +53,8 @@ public final class SignCertificateRequest extends RequestWithId {
    */
   @Nullable private CertificateSigningUseEnum certificateType;
 
+  private SignCertificateRequest() {}
+
   /**
    * Constructor for the SignCertificateRequest class
    *

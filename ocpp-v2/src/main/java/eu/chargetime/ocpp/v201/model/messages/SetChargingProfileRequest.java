@@ -56,6 +56,8 @@ public final class SetChargingProfileRequest extends RequestWithId {
    */
   private ChargingProfile chargingProfile;
 
+  private SetChargingProfileRequest() {}
+
   /**
    * Constructor for the SetChargingProfileRequest class
    *

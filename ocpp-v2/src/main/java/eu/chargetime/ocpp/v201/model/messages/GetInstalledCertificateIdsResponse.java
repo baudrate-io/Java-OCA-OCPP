@@ -53,6 +53,8 @@ public final class GetInstalledCertificateIdsResponse extends Confirmation {
   /** certificateHashDataChain */
   @Nullable private CertificateHashDataChain[] certificateHashDataChain;
 
+  private GetInstalledCertificateIdsResponse() {}
+
   /**
    * Constructor for the GetInstalledCertificateIdsResponse class
    *

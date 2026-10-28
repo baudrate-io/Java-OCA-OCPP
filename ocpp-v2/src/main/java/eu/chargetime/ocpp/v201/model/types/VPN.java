@@ -80,6 +80,8 @@ public final class VPN {
    */
   private VPNEnum type;
 
+  private VPN() {}
+
   /**
    * Constructor for the VPN class
    *

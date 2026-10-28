@@ -48,6 +48,8 @@ public final class SetDisplayMessageRequest extends RequestWithId {
    */
   private MessageInfo message;
 
+  private SetDisplayMessageRequest() {}
+
   /**
    * Constructor for the SetDisplayMessageRequest class
    *

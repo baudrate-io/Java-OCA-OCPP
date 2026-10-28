@@ -51,6 +51,8 @@ public final class LogStatusNotificationRequest extends RequestWithId {
    */
   @Nullable private Integer requestId;
 
+  private LogStatusNotificationRequest() {}
+
   /**
    * Constructor for the LogStatusNotificationRequest class
    *

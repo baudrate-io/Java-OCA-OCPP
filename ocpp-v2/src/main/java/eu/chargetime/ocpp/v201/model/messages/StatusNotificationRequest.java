@@ -57,6 +57,8 @@ public final class StatusNotificationRequest extends RequestWithId {
   /** The id of the connector within the EVSE for which the status is reported. */
   private Integer connectorId;
 
+  private StatusNotificationRequest() {}
+
   /**
    * Constructor for the StatusNotificationRequest class
    *

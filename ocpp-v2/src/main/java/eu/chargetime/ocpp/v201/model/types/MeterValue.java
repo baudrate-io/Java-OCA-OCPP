@@ -59,6 +59,8 @@ public final class MeterValue {
    */
   private ZonedDateTime timestamp;
 
+  private MeterValue() {}
+
   /**
    * Constructor for the MeterValue class
    *

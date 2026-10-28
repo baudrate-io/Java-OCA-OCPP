@@ -55,6 +55,8 @@ public final class SendLocalListRequest extends RequestWithId {
   /** The type of update (full or differential) of this request. */
   private UpdateEnum updateType;
 
+  private SendLocalListRequest() {}
+
   /**
    * Constructor for the SendLocalListRequest class
    *

@@ -52,6 +52,8 @@ public final class SetNetworkProfileRequest extends RequestWithId {
    */
   private NetworkConnectionProfile connectionData;
 
+  private SetNetworkProfileRequest() {}
+
   /**
    * Constructor for the SetNetworkProfileRequest class
    *

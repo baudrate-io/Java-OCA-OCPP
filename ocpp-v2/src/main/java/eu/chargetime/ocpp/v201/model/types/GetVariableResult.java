@@ -59,6 +59,8 @@ public final class GetVariableResult {
   /** Reference key to a component-variable. */
   private Variable variable;
 
+  private GetVariableResult() {}
+
   /**
    * Constructor for the GetVariableResult class
    *

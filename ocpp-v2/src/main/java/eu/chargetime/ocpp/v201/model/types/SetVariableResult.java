@@ -49,6 +49,8 @@ public final class SetVariableResult {
   /** Reference key to a component-variable. */
   private Variable variable;
 
+  private SetVariableResult() {}
+
   /**
    * Constructor for the SetVariableResult class
    *

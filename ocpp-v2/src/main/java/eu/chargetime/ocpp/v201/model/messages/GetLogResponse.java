@@ -54,6 +54,8 @@ public final class GetLogResponse extends Confirmation {
    */
   @Nullable private String filename;
 
+  private GetLogResponse() {}
+
   /**
    * Constructor for the GetLogResponse class
    *

@@ -81,6 +81,8 @@ public final class VariableMonitoring {
    */
   private Integer severity;
 
+  private VariableMonitoring() {}
+
   /**
    * Constructor for the VariableMonitoring class
    *

@@ -48,6 +48,8 @@ public final class DeleteCertificateResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private DeleteCertificateResponse() {}
+
   /**
    * Constructor for the DeleteCertificateResponse class
    *

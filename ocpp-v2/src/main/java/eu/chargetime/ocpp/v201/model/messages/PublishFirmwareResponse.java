@@ -48,6 +48,8 @@ public final class PublishFirmwareResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private PublishFirmwareResponse() {}
+
   /**
    * Constructor for the PublishFirmwareResponse class
    *

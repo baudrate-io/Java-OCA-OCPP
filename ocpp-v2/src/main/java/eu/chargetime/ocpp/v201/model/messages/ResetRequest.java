@@ -47,6 +47,8 @@ public final class ResetRequest extends RequestWithId {
   /** The ID of a specific EVSE that needs to be reset, instead of the entire Charging Station. */
   @Nullable private Integer evseId;
 
+  private ResetRequest() {}
+
   /**
    * Constructor for the ResetRequest class
    *

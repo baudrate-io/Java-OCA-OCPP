@@ -107,6 +107,8 @@ public final class ChargingProfile {
    */
   @Nullable private String transactionId;
 
+  private ChargingProfile() {}
+
   /**
    * Constructor for the ChargingProfile class
    *

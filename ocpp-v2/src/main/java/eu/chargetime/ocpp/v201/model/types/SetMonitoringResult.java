@@ -89,6 +89,8 @@ public final class SetMonitoringResult {
    */
   private Integer severity;
 
+  private SetMonitoringResult() {}
+
   /**
    * Constructor for the SetMonitoringResult class
    *

@@ -61,6 +61,8 @@ public final class NotifyReportRequest extends RequestWithId {
   /** Sequence number of this message. First message starts at 0. */
   private Integer seqNo;
 
+  private NotifyReportRequest() {}
+
   /**
    * Constructor for the NotifyReportRequest class
    *

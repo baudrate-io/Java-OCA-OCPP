@@ -59,6 +59,8 @@ public final class MessageContent {
    */
   private String content;
 
+  private MessageContent() {}
+
   /**
    * Constructor for the MessageContent class
    *

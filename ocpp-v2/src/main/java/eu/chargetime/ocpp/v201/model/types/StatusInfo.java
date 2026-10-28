@@ -43,6 +43,8 @@ public final class StatusInfo {
   /** Additional text to provide detailed information. */
   @Nullable private String additionalInfo;
 
+  private StatusInfo() {}
+
   /**
    * Constructor for the StatusInfo class
    *

@@ -48,6 +48,8 @@ public final class UnlockConnectorResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private UnlockConnectorResponse() {}
+
   /**
    * Constructor for the UnlockConnectorResponse class
    *

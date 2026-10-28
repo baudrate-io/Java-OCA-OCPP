@@ -48,6 +48,8 @@ public final class CustomerInformationResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private CustomerInformationResponse() {}
+
   /**
    * Constructor for the CustomerInformationResponse class
    *

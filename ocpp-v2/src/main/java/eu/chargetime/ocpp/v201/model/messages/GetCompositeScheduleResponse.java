@@ -52,6 +52,8 @@ public final class GetCompositeScheduleResponse extends Confirmation {
   /** Composite Schedule */
   @Nullable private CompositeSchedule schedule;
 
+  private GetCompositeScheduleResponse() {}
+
   /**
    * Constructor for the GetCompositeScheduleResponse class
    *

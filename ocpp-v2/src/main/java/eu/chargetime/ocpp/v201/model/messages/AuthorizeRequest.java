@@ -55,6 +55,8 @@ public final class AuthorizeRequest extends RequestWithId {
   /** iso15118CertificateHashData */
   @Nullable private OCSPRequestData[] iso15118CertificateHashData;
 
+  private AuthorizeRequest() {}
+
   /**
    * Constructor for the AuthorizeRequest class
    *

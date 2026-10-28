@@ -72,6 +72,8 @@ public final class RequestStartTransactionRequest extends RequestWithId {
    */
   @Nullable private ChargingProfile chargingProfile;
 
+  private RequestStartTransactionRequest() {}
+
   /**
    * Constructor for the RequestStartTransactionRequest class
    *

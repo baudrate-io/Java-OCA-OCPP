@@ -43,6 +43,8 @@ public final class GetVariableData {
   /** Reference key to a component-variable. */
   private Variable variable;
 
+  private GetVariableData() {}
+
   /**
    * Constructor for the GetVariableData class
    *

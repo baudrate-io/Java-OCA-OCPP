@@ -45,6 +45,8 @@ public final class SetVariablesResponse extends Confirmation {
   /** setVariableResult */
   private SetVariableResult[] setVariableResult;
 
+  private SetVariablesResponse() {}
+
   /**
    * Constructor for the SetVariablesResponse class
    *

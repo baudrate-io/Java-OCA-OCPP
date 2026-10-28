@@ -44,6 +44,8 @@ public final class HeartbeatResponse extends Confirmation {
   /** The current time of the CSMS. */
   private ZonedDateTime currentTime;
 
+  private HeartbeatResponse() {}
+
   /**
    * Constructor for the HeartbeatResponse class
    *

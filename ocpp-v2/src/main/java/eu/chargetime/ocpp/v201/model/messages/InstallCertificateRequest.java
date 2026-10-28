@@ -47,6 +47,8 @@ public final class InstallCertificateRequest extends RequestWithId {
   /** A PEM encoded X.509 certificate. */
   private String certificate;
 
+  private InstallCertificateRequest() {}
+
   /**
    * Constructor for the InstallCertificateRequest class
    *

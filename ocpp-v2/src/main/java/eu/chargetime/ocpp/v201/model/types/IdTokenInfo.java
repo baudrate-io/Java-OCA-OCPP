@@ -98,6 +98,8 @@ public final class IdTokenInfo {
    */
   @Nullable private MessageContent personalMessage;
 
+  private IdTokenInfo() {}
+
   /**
    * Constructor for the IdTokenInfo class
    *

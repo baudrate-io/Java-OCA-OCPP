@@ -59,6 +59,8 @@ public final class NotifyEVChargingScheduleRequest extends RequestWithId {
    */
   private Integer evseId;
 
+  private NotifyEVChargingScheduleRequest() {}
+
   /**
    * Constructor for the NotifyEVChargingScheduleRequest class
    *

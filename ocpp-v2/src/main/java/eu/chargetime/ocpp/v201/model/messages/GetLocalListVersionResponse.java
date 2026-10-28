@@ -43,6 +43,8 @@ public final class GetLocalListVersionResponse extends Confirmation {
   /** The current version number of the local authorization list in the Charging Station. */
   private Integer versionNumber;
 
+  private GetLocalListVersionResponse() {}
+
   /**
    * Constructor for the GetLocalListVersionResponse class
    *

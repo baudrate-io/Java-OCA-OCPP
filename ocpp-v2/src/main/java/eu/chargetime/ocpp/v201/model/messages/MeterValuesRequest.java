@@ -58,6 +58,8 @@ public final class MeterValuesRequest extends RequestWithId {
    */
   private MeterValue[] meterValue;
 
+  private MeterValuesRequest() {}
+
   /**
    * Constructor for the MeterValuesRequest class
    *

@@ -85,6 +85,8 @@ public final class SampledValue {
   /** A UnitOfMeasure with a multiplier */
   @Nullable private UnitOfMeasure unitOfMeasure;
 
+  private SampledValue() {}
+
   /**
    * Constructor for the SampledValue class
    *

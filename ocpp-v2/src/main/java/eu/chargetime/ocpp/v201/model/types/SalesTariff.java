@@ -64,6 +64,8 @@ public final class SalesTariff {
   /** Sales Tariff Entry */
   private SalesTariffEntry[] salesTariffEntry;
 
+  private SalesTariff() {}
+
   /**
    * Constructor for the SalesTariff class
    *

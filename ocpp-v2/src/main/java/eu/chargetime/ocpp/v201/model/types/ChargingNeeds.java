@@ -63,6 +63,8 @@ public final class ChargingNeeds {
    */
   @Nullable private ZonedDateTime departureTime;
 
+  private ChargingNeeds() {}
+
   /**
    * Constructor for the ChargingNeeds class
    *

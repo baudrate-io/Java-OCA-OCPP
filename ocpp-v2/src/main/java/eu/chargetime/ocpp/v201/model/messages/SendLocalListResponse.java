@@ -51,6 +51,8 @@ public final class SendLocalListResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private SendLocalListResponse() {}
+
   /**
    * Constructor for the SendLocalListResponse class
    *

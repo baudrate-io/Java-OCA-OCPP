@@ -46,6 +46,8 @@ public final class GetTransactionStatusResponse extends Confirmation {
   /** Whether there are still message to be delivered. */
   private Boolean messagesInQueue;
 
+  private GetTransactionStatusResponse() {}
+
   /**
    * Constructor for the GetTransactionStatusResponse class
    *

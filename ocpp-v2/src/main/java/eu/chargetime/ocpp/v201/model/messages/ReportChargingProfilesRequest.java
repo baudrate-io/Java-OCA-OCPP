@@ -73,6 +73,8 @@ public final class ReportChargingProfilesRequest extends RequestWithId {
    */
   private Integer evseId;
 
+  private ReportChargingProfilesRequest() {}
+
   /**
    * Constructor for the ReportChargingProfilesRequest class
    *

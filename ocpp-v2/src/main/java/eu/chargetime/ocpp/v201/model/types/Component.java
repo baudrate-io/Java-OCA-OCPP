@@ -53,6 +53,8 @@ public final class Component {
    */
   @Nullable private String instance;
 
+  private Component() {}
+
   /**
    * Constructor for the Component class
    *

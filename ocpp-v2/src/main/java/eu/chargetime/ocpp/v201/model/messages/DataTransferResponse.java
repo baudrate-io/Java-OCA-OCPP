@@ -51,6 +51,8 @@ public final class DataTransferResponse extends Confirmation {
   /** Data without specified length or format, in response to request. */
   @Nullable private Object data;
 
+  private DataTransferResponse() {}
+
   /**
    * Constructor for the DataTransferResponse class
    *

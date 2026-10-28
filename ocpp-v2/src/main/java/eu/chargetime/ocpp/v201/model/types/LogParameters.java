@@ -60,6 +60,8 @@ public final class LogParameters {
    */
   @Nullable private ZonedDateTime latestTimestamp;
 
+  private LogParameters() {}
+
   /**
    * Constructor for the LogParameters class
    *

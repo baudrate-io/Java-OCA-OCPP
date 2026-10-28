@@ -44,6 +44,8 @@ public final class SetMonitoringBaseRequest extends RequestWithId {
   /** Specify which monitoring base will be set */
   private MonitoringBaseEnum monitoringBase;
 
+  private SetMonitoringBaseRequest() {}
+
   /**
    * Constructor for the SetMonitoringBaseRequest class
    *

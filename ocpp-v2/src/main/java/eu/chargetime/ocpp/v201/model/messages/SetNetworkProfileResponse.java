@@ -48,6 +48,8 @@ public final class SetNetworkProfileResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private SetNetworkProfileResponse() {}
+
   /**
    * Constructor for the SetNetworkProfileResponse class
    *

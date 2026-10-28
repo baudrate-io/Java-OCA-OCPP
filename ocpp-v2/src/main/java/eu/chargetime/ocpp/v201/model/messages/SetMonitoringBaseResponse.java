@@ -48,6 +48,8 @@ public final class SetMonitoringBaseResponse extends Confirmation {
   /** More information about the status. */
   @Nullable private StatusInfo statusInfo;
 
+  private SetMonitoringBaseResponse() {}
+
   /**
    * Constructor for the SetMonitoringBaseResponse class
    *
